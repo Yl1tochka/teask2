@@ -1,0 +1,130 @@
+@font-face {
+  font-family: "helveticaneuecyr";
+  src: url("./font/helveticaneuecyr_roman.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "helveticaneuecyr";
+  background: #373a3c;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1160px;
+  padding: 0 40px;
+}
+a {
+  text-decoration: none;
+}
+.head {
+  margin: 11px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.head_right ul {
+  display: flex;
+  gap: 37px;
+  align-items: center;
+}
+.head_right a {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  color: rgba(255, 255, 255, 0.5);
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+input {
+  padding-left: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 209px;
+  height: 38px;
+}
+input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #435766;
+  opacity: 0.4;
+}
+.sec1 {
+  background: url(./img/bg1.png) center/cover no-repeat;
+  height: 644px;
+}
+.glav_mod {
+  display: flex;
+  justify-content: space-between;
+}
+.arrow {
+  margin: 0 58px;
+}
+.glav_mod_info {
+  display: flex;
+  justify-content: end;
+  width: 1130px;
+  margin: 0;
+  padding: 0;
+}
+.ros_ri {
+  max-width: 1130px;
+  max-height: 238px;
+  margin-right: 137px;
+  margin-top: 206px;
+  font-weight: 400;
+  color: #fff;
+}
+.ros_ri {
+  width: max-content;
+}
+h1 {
+  font-weight: 400;
+  font-size: 36px;
+  color: #fff;
+}
+h2 {
+  font-weight: 400;
+  font-size: 24px;
+  color: #fff;
+}
+.btns {
+  margin-top: 134px;
+  display: flex;
+  gap: 13px;
+  align-items: center;
+
+}
+.btns a{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #fff;
+}
+.btn1 {
+  border-radius: 4px;
+  padding: 8px 21px;
+  background: #8dd83d;
+}
+.btn2 {
+  border-radius: 4px;
+  background: #686C6F;
+  padding: 8px 21px;
+  background: linear-gradient(180deg, #686c6f 0%, #373a3c 100%);
+}
+.arrow{
+  margin-top: 310px;
+}
+.points{
+  margin-top: 147px;
+  display: flex;
+  justify-content: center;
+}
